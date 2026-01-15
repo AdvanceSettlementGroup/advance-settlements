@@ -1,5 +1,5 @@
 import { Separator } from "@/components/ui/separator"
-import { Phone, Envelope, MapPin } from "@phosphor-icons/react"
+import { Envelope } from "@phosphor-icons/react"
 
 export function Footer() {
   return (
@@ -70,16 +70,8 @@ export function Footer() {
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">Contact</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-primary-foreground/80">
-                <Phone size={16} />
-                <span>(555) 123-4567</span>
-              </li>
-              <li className="flex items-center gap-2 text-primary-foreground/80">
                 <Envelope size={16} />
                 <span>info@advancesettlements.com</span>
-              </li>
-              <li className="flex items-start gap-2 text-primary-foreground/80">
-                <MapPin size={16} className="mt-0.5 flex-shrink-0" />
-                <span>123 Financial District<br />New York, NY 10004</span>
               </li>
             </ul>
           </div>
