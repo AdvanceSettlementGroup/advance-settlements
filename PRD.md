@@ -1,144 +1,143 @@
 # Planning Guide
 
-A professional landing page connecting settlement funders with fundees, helping people needing an advance on their settlement funds shop the market for the best deal possible based on their timeline.
+A professional landing page that connects settlement funders with individuals seeking advances on their settlement funds, helping fundees shop the market for optimal financing deals based on their timeline needs.
 
-**Experience Qualities**: 
-1. **Trustworthy** - Financial services require credibility through clear messaging, professional design, and transparent information
-2. **Accessible** - Simple navigation and straightforward content that makes complex financial services feel approachable
-3. **Supportive** - Warm, helpful tone that positions the service as an advocate for people in need
+**Experience Qualities**:
+1. **Professional** - Instills trust and credibility in financial services through polished design and clear information hierarchy
+2. **Approachable** - Makes a complex financial process feel accessible and straightforward for people in stressful situations
+3. **Efficient** - Guides users quickly to understanding the value proposition and taking action through a streamlined journey
 
-**Complexity Level**: Content Showcase (information-focused)
-This is a marketing landing page designed to explain the service, build trust, and drive conversions through form submissions or contact actions.
+**Complexity Level**: Content Showcase (information-focused) - This is a marketing landing page designed to educate visitors about the service, build trust through social proof, and drive conversions through a contact form.
 
 ## Essential Features
 
-**Hero Section with Value Proposition**
-- Functionality: Display compelling headline, subheadline, and primary CTA
-- Purpose: Immediately communicate the core value and drive engagement
-- Trigger: Page load
-- Progression: User lands on page → Reads headline "Connect with Settlement Funders" → Sees explanation → Clicks "Get Started" CTA
-- Success criteria: Clear messaging visible above fold, CTA button prominently displayed
+### Hero Section with Call-to-Action
+- **Functionality**: Displays compelling headline, subheadline, and primary CTA button
+- **Purpose**: Immediately communicate value proposition and drive users to contact form
+- **Trigger**: Page load
+- **Progression**: User lands on page → Reads headline → Clicks CTA → Scrolls to contact form
+- **Success criteria**: Clear messaging visible above fold, CTA button prominently displayed and functional
 
-**How It Works / Process Section**
-- Functionality: Visual step-by-step explanation of the funding process
-- Purpose: Demystify the process and build confidence
-- Trigger: User scrolls down from hero
-- Progression: User scrolls → Sees 3-4 step process cards → Understands journey from application to funding
-- Success criteria: Clear iconography, concise step descriptions, logical flow
+### How It Works Process
+- **Functionality**: Shows 3-4 step process with icons explaining the funding journey
+- **Purpose**: Demystify the settlement advance process and set clear expectations
+- **Trigger**: User scrolls to section
+- **Progression**: User scrolls → Sees numbered steps → Understands process flow → Gains confidence
+- **Success criteria**: Steps are visually distinct, easy to scan, and logically ordered
 
-**Benefits/Features Section**
-- Functionality: Highlight key advantages of using the service
-- Purpose: Address pain points and showcase competitive advantages
-- Trigger: Continued scrolling
-- Progression: User reads benefits → Understands value propositions (best rates, fast funding, multiple offers, etc.)
-- Success criteria: Scannable benefit cards with icons, clear value statements
+### Benefits Section
+- **Functionality**: Highlights key advantages of using the platform (market shopping, best rates, timeline flexibility)
+- **Purpose**: Reinforce value proposition with specific benefits
+- **Trigger**: User scrolls to section
+- **Progression**: User scrolls → Reads benefits → Understands competitive advantage → Builds trust
+- **Success criteria**: 3-6 benefits clearly communicated with supporting icons/imagery
 
-**Social Proof / Trust Signals**
-- Functionality: Display testimonials, statistics, or trust badges
-- Purpose: Build credibility and reduce friction
-- Trigger: User scrolls through page
-- Progression: User sees proof points → Trust increases → More likely to convert
-- Success criteria: Authentic-feeling testimonials, relevant statistics prominently displayed
+### Stats/Trust Indicators
+- **Functionality**: Displays impressive numbers (settlements funded, average rates, customer satisfaction)
+- **Purpose**: Build credibility through quantifiable achievements
+- **Trigger**: User scrolls to section
+- **Progression**: User scrolls → Sees statistics → Gains social proof → Increases trust
+- **Success criteria**: Numbers are prominent, believable, and impactful
 
-**Contact/Lead Generation Form**
-- Functionality: Collect user information to connect them with funders
-- Purpose: Primary conversion goal - capture leads
-- Trigger: User clicks CTA or scrolls to form section
-- Progression: User fills fields (name, email, settlement details) → Submits → Sees confirmation
-- Success criteria: Form validates inputs, shows success state, stores submissions
+### Testimonials
+- **Functionality**: Shows customer reviews with names and context
+- **Purpose**: Provide social proof through real customer experiences
+- **Trigger**: User scrolls to section
+- **Progression**: User scrolls → Reads testimonials → Sees relatable stories → Feels reassured
+- **Success criteria**: 3+ testimonials with authentic-feeling details
 
-**Footer with Information**
-- Functionality: Legal links, contact info, additional resources
-- Purpose: Provide required disclosures and secondary navigation
-- Trigger: User scrolls to bottom
-- Progression: User accesses privacy policy, terms, contact details
-- Success criteria: All required legal links present and accessible
+### Contact Form
+- **Functionality**: Collects user information (name, email, phone, settlement details)
+- **Purpose**: Generate qualified leads for the sales team
+- **Trigger**: User clicks CTA or scrolls to form section
+- **Progression**: User fills form → Submits → Sees confirmation → Receives follow-up
+- **Success criteria**: Form validates input, shows clear success message, persists data using useKV
+
+### Footer
+- **Functionality**: Displays company info, links, and contact details
+- **Purpose**: Provide additional context and legal/support information
+- **Trigger**: User scrolls to bottom
+- **Progression**: User scrolls → Finds additional info → Clicks links as needed
+- **Success criteria**: All standard footer elements present and organized
 
 ## Edge Case Handling
-
-- **Form Validation Errors**: Inline error messages with clear guidance on how to fix issues
-- **Empty Form Submission**: Disabled submit button until required fields are filled
-- **Long Content on Mobile**: Responsive stacking with appropriate spacing and touch targets
-- **No JavaScript**: Core content and messaging still accessible with graceful degradation
-- **Slow Loading**: Progressive content loading with skeleton states or fade-ins
+- **Empty Form Submission**: Validate all required fields before submission, show inline error messages
+- **Invalid Email/Phone**: Real-time validation with helpful error messages
+- **Slow Network**: Show loading states on form submission
+- **Mobile Layout**: Responsive design that works seamlessly on all screen sizes
+- **Repeat Visitors**: Form persists previous inputs using useKV for convenience
 
 ## Design Direction
-
-The design should evoke professionalism, trust, and accessibility while maintaining a modern, clean aesthetic. It should feel like a legitimate financial services platform without being overly corporate or cold. The visual language should communicate both competence and compassion - this is a service helping people in difficult situations get fair financial solutions.
+The design should evoke professionalism, trust, and financial stability while remaining warm and approachable. It should feel like a legitimate financial services platform that understands the stress and urgency of someone needing settlement funds. The aesthetic should balance corporate credibility with human empathy - serious enough to trust with money, friendly enough to feel supported.
 
 ## Color Selection
+A sophisticated blue-green palette that evokes trust, stability, and financial growth.
 
-A professional yet approachable palette centered on financial trust with warm accent tones to convey support.
-
-- **Primary Color**: Deep authoritative blue (oklch(0.42 0.12 250)) - Communicates trust, stability, and financial credibility
+- **Primary Color**: Deep teal/blue `oklch(0.42 0.12 250)` - Represents trust, professionalism, and financial services
 - **Secondary Colors**: 
-  - Warm teal/cyan (oklch(0.65 0.08 200)) - Supporting professional tone with slight warmth
-  - Light neutral background (oklch(0.98 0.005 250)) - Clean, spacious feel
-- **Accent Color**: Vibrant coral/orange (oklch(0.68 0.18 35)) - CTAs and important highlights, conveys energy and action without aggression
+  - Lighter teal `oklch(0.65 0.08 200)` - Supporting color for secondary actions and accents
+  - Soft off-white `oklch(0.98 0.005 250)` - Clean, professional background
+- **Accent Color**: Warm coral/orange `oklch(0.68 0.18 35)` - Draws attention to CTAs and important elements, represents opportunity and energy
 - **Foreground/Background Pairings**: 
-  - Primary Blue on Light Background: Dark blue #0B3A5D (oklch(0.42 0.12 250)) on Off-white #FAFBFC (oklch(0.98 0.005 250)) - Ratio 10.2:1 ✓
-  - Accent Coral on White: Coral #E8784A (oklch(0.68 0.18 35)) on White #FFFFFF - Ratio 4.6:1 ✓
-  - White on Primary: White #FFFFFF on Deep Blue #0B3A5D (oklch(0.42 0.12 250)) - Ratio 10.2:1 ✓
+  - Primary background (Off-white `oklch(0.98 0.005 250)`): Dark text `oklch(0.25 0.02 250)` - Ratio 13.5:1 ✓
+  - Primary buttons (Deep teal `oklch(0.42 0.12 250)`): White text `oklch(0.98 0.005 250)` - Ratio 9.2:1 ✓
+  - Accent (Coral `oklch(0.68 0.18 35)`): White text `oklch(1 0 0)` - Ratio 4.6:1 ✓
+  - Card backgrounds (White `oklch(1 0 0)`): Dark text `oklch(0.25 0.02 250)` - Ratio 14.8:1 ✓
 
 ## Font Selection
+Typography should convey modernity and professionalism while remaining highly readable for users who may be stressed or scanning quickly.
 
-Typography should project modern professionalism with excellent readability across all device sizes, combining a clean sans-serif with subtle character.
-
-- **Primary Font**: Space Grotesk - Distinctive geometric sans with technical precision yet warm character, perfect for headlines and UI elements
-- **Secondary Font**: Inter - Highly readable workhorse for body text and longer content
-- **Typographic Hierarchy**: 
-  - H1 (Hero Headline): Space Grotesk Bold/48px/tight (-0.02em letter spacing)
-  - H2 (Section Headers): Space Grotesk SemiBold/36px/tight
-  - H3 (Feature Titles): Space Grotesk Medium/24px/normal
-  - Body (Paragraphs): Inter Regular/16px/relaxed (1.6 line height)
-  - Small (Captions): Inter Regular/14px/normal
-  - CTA Buttons: Space Grotesk Medium/16px/wide (0.02em letter spacing)
+- **Typographic Hierarchy**:
+  - H1 (Main Hero): Space Grotesk Bold / 48px (mobile: 32px) / tight tracking / -0.02em
+  - H2 (Section Titles): Space Grotesk Semibold / 36px (mobile: 28px) / tight tracking / -0.01em  
+  - H3 (Subsection): Space Grotesk Medium / 24px (mobile: 20px) / normal tracking
+  - Body Text: Inter Regular / 16px / 1.6 line-height / normal tracking
+  - Button Text: Space Grotesk Medium / 16px / normal tracking / uppercase
+  - Captions/Small: Inter Regular / 14px / 1.5 line-height
 
 ## Animations
-
-Animations should be purposeful and subtle, enhancing the user experience without distraction - reinforcing the professional yet approachable tone.
-
-Key animation moments:
-- Fade-in on scroll for section reveals (300ms ease)
-- Gentle scale on button hover (150ms) for tactile feedback
-- Smooth scroll to form section when CTA clicked
-- Slide-up entrance for process step cards with stagger delay
-- Subtle pulse on primary CTA to draw attention without being obnoxious
+Animations should enhance the professional feel without being distracting - subtle, purposeful, and dignified. Use gentle fade-ins as sections scroll into view to create a sense of polish and guide attention. CTAs should have satisfying hover states with subtle scale/shadow changes. Form inputs should have smooth focus transitions. Page transitions between sections should feel fluid with scroll-based reveals using framer-motion.
 
 ## Component Selection
-
 - **Components**: 
-  - Card: For process steps, benefits, testimonials - with subtle shadow and hover lift
-  - Button: Primary (filled coral accent), Secondary (outlined blue) - multiple sizes for hierarchy
-  - Input/Textarea: Form fields with floating labels and clear focus states
-  - Badge: For trust signals like "Fast Approval" or "Best Rates"
-  - Separator: Between major sections for visual breathing room
+  - Hero: Custom section with shadcn Button for CTA
+  - How It Works: Custom cards with shadcn Card components
+  - Benefits: Grid of shadcn Card components with icons from Phosphor
+  - Stats: Custom stat display with number animations
+  - Testimonials: shadcn Card components in a responsive grid
+  - Contact Form: shadcn Form with Input, Textarea, Select, and Button components
+  - Footer: Custom footer component with links
+  - Toast notifications: Sonner for form submission feedback
+
 - **Customizations**: 
-  - Custom hero gradient background (subtle blue-to-teal gradient)
-  - Process step cards with custom number badges
-  - Testimonial cards with quote styling
-  - Contact form with multi-column layout on desktop
+  - Hero section with background gradient pattern
+  - Animated stat counters for the stats section
+  - Custom card hover effects for benefits and testimonials
+
 - **States**: 
-  - Buttons: Distinct hover (brightness increase, slight scale), active (scale down), focus (ring), disabled (opacity 50%)
-  - Inputs: Default (neutral border), Focus (primary border + ring), Error (destructive border + message), Success (green border)
-  - Cards: Rest (subtle shadow), Hover (lifted shadow, slight translate up)
+  - Buttons: Clear hover states with subtle elevation and color shift
+  - Form inputs: Focused state with ring color matching primary, error states in red
+  - Cards: Subtle hover lift effect with shadow increase
+  - Loading: Disabled button states during form submission
+
 - **Icon Selection**: 
-  - @phosphor-icons/react: 
-    - Handshake for connecting funders/fundees
-    - ClipboardText for application process
-    - CurrencyDollar for funding
-    - CheckCircle for benefits/completion
-    - Users for testimonials
-    - ArrowRight for CTAs and navigation
-    - Phone/Envelope for contact
+  - Phosphor icons throughout for consistency
+  - Process steps: NumberCircleOne, NumberCircleTwo, NumberCircleThree, NumberCircleFour
+  - Benefits: CheckCircle, Lightning, ShieldCheck, Users, Clock, TrendUp
+  - Contact: Phone, Envelope, MapPin
+  - Social: InstagramLogo, FacebookLogo, LinkedinLogo
+
 - **Spacing**: 
-  - Section vertical padding: py-16 (mobile), py-24 (desktop)
-  - Container max-width: max-w-7xl with px-4 (mobile), px-8 (desktop)
-  - Card gap: gap-6 (mobile), gap-8 (desktop)
-  - Element spacing: space-y-4 for vertical stacks, gap-3 for inline elements
+  - Section padding: py-16 md:py-24 (64px to 96px)
+  - Container max-width: max-w-7xl
+  - Card padding: p-6 md:p-8
+  - Gap between cards: gap-6 md:gap-8
+  - Button padding: px-6 py-3
+
 - **Mobile**: 
-  - Hero: Stack headline and CTA vertically, reduce font sizes (H1 to 36px)
-  - Process steps: Single column with full-width cards
-  - Benefits: 1 column mobile, 2 columns tablet, 3 columns desktop
-  - Form: Single column on mobile, 2-column grid on desktop
-  - Navigation: Hamburger menu if navigation added, or sticky CTA button
+  - Single column layouts on mobile (< 768px)
+  - Stacked hero content with image below text
+  - Grid columns: 1 column mobile, 2-3 columns tablet/desktop
+  - Touch-friendly button sizes (min 44px height)
+  - Hamburger menu not needed (single-page scroll)
+  - Reduced font sizes for headings on mobile
